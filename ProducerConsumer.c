@@ -54,3 +54,7 @@ int main(){
 	pthread_join( t[1], NULL );
 	return 0;
 }
+
+// Instructions to run this program specially
+// [terminal] : mpicc -o objectName ProducerConsumer.c -lpthread
+// [terminal] : mpirun ./objectName
